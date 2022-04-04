@@ -29,21 +29,18 @@ bob.makeDeposit(100)
 bob.makeDeposit(100)
 bob.makeDeposit(100)
 bob.makeWithdrawal(25)
-
-print(bob.accountBalance)
+bob.displayUserBalance()
 
 tommy.makeDeposit(100)
 tommy.makeDeposit(100)
 tommy.makeWithdrawal(25)
 tommy.makeWithdrawal(25)
-
-print(tommy.accountBalance)
+tommy.displayUserBalance()
 
 jimmy.makeDeposit(100)
 jimmy.makeWithdrawal(25)
 jimmy.makeWithdrawal(25)
 jimmy.makeWithdrawal(25)
-
-print(jimmy.accountBalance)
+jimmy.displayUserBalance()
 
 bob.transfer(100, jimmy)
